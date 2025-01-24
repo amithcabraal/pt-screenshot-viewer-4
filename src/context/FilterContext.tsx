@@ -31,7 +31,7 @@ const initialFilters: FilterState = {
   section: 'all',
   type: 'all',
   vertical: 'all',
-  imageWidth: 50,
+  imageWidth: 5,
 };
 
 const FilterContext = createContext<FilterContextType | undefined>(undefined);
