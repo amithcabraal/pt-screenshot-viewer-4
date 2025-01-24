@@ -12,7 +12,7 @@ export function ImageWidthControl() {
         className="w-[200px]"
         value={[filters.imageWidth]}
         onValueChange={([value]) => setFilters({ imageWidth: value })}
-        min={20}
+        min={5}
         max={100}
         step={5}
       />
